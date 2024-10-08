@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ThemeToggle from "./themeSwitcher"; // Importer le nouveau composant
 
+
 const App = () => {
   const [quote, setQuote] = useState("Le succès, c’est d’aller d’échec en échec sans perdre son enthousiasme.");
   const [author, setAuthor] = useState("Winston Churchill");
