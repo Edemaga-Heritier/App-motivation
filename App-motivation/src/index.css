@@ -4,4 +4,14 @@
 
 
 
-
+/* Tailwind CSS styles or additional styles */
+html, body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Mode sombre */
+  body.bg-gray-900 {
+    background-color: #1a202c;
+    color: white;
+  }
+  
